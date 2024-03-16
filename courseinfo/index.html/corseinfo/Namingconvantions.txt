@@ -1,0 +1,150 @@
+1) spaces are not allowed in variable names.
+2) only letters, digits, underscores and dollarsign are permitted in variable name.
+3) Reserved words in js shouldn't be used to variable name.
+4) A letter ( alphabet) , underscore (_) or a dollarsign ($) must be  first character in a variable 
+name other specialcharacters shouldn't be used to name variable
+
+
+
+Question
+
+*variable
+A variable is a quantity that may be changed according to the mathematical problem.
+ The generic letters which are used in many algebraic expressions and equations are x, y, z.
+  In other words, a variable is a symbol for a number where the value is not known. 
+  For example, x + 5 = 10. Here “x” is a variable
+
+*Javascript
+JavaScript is the Programming Language for the Web.
+JavaScript can update and change both HTML and CSS.
+JavaScript can calculate, manipulate and validate data.
+
+*application of JS
+1. Web Development
+2. Single Page Applications (SPAs)
+3.Mobile App Development
+4. Game Development
+5. Web Servers and Server Applications 
+6. Apps for Smart Watches
+7. Making Drawing Applications
+8. Making Charts and Reports
+9. Presentations
+10. Machine Learning with JavaScript
+
+
+*Frontend Vs backend
+
+*how to use JS
+2015,ES6 = ECMAScript
+
+declare 
+variable let,var,const
+let 
+->block scoped  is { a="ball" console.log(a)}
+var 
+->global scoped is all run , notuse more
+const
+-> p  valve 
+pascal case is FirstName  use in java ,c#
+snake case is  first_name 
+camel case   is firstName = myNameIsPrem
+
+Data types JavaScript
+primitive
+non-primitive
+->string is ""
+->int=number
+->undefined
+->null
+->boolean
+
+concatenate [ + ]
+
+operand ,operator
+7 ko ta huxa
+asignment =
+comparison >< 
+logical operation !  &
+{Arithmetic Operators
+Assignment Operators
+Comparison Operators
+String Operators
+Logical Operators
+Bitwise Operators
+Ternary Operators
+Type Operators}
+talk is cheap show me the code!
+refactor 
+-->objects of js
+
+dot notation
+bracket notation
+
+type converion
+process of converting data of one type to another 
+eg:converting string data type to number
+two types of conversion 
+1) Implipcit conversion 
+ automatic
+ conversion
+ 2)  explicit conversion
+ manual
+ conversion
+
+ loop 
+ is used for repeating a block of code.
+
+ entry controlled
+ while loop
+ while (condition)
+ {
+  //statement
+ }
+ do -while
+ do{
+  //statement
+ }while(condition)
+
+ looping
+ *condition
+ *incrament/ decrement
+
+prompt
+alert
+confirm
+
+ functions
+ *code reusability
+ *scalability
+ *Maintainability
+ keyboard function
+ () parentheses
+ {} bracket
+ -->void is empty ----has no return type
+ return Type --- string number
+
+
+ hoisting --->
+ const result= caksquare()
+console.log(result)
+function caksquare (){
+    return 2*2;
+}
+
+//arguments right
+const result= caksquare(3)
+console.log(result)
+//parameter 
+function caksquare (i){
+    return i*i;
+}
+
+separation & concems
+
+array []
+objects{}
+
+
+exception_handling
+try
+catch
